@@ -35,7 +35,7 @@ Do the next steps **Set up an Editor** and **Test Drive**.
 Now, the setup is done. Let's start our Quizz App.
 First, we will create our first page:
 
-![Screenshot](screenshots/exercise-1.png)
+![Screenshot](screenshots/exercise1.png)
 
 #### Tips:
 Take a look at theses widgets:
@@ -97,4 +97,58 @@ Question('The lunar module Eagle had 4Kb of RAM', true, 'I can't believe I'm com
 At this time, you have your first page to launch the game, you be able to navigate between different pages and you got your class **Question**.
 So now, you are going to create the UI of a question.
 
-![Screenshot](screenshots/exercise-4.png)
+![Screenshot](screenshots/exercise4.png)
+
+> Use your questionList to fill informations
+
+
+
+## Exercise 5 - The Answer Dialog
+
+Now, you will create a popup when you press on **True** or **False** buttons.
+You have to check if the button pressed is the same as the bool attribute of the question in the `questionList` at current index.
+
+If the answer is right, your popup might look like this:
+
+![Screenshot](screenshots/exercise5-true.png)
+
+And if the answer is wrong:
+
+![Screenshot](screenshots/exercise5-false.png)
+
+#### Tips:
+
+- Take a look at [onPressed](https://googleflutter.com/flutter-button-onpressed/) method.
+- Take a look at [SimpleDialog](https://api.flutter.dev/flutter/material/SimpleDialog-class.html) widget.
+- Don't forget to increment the score if the answer is right.
+
+
+
+## Exercise 6 - The Game logic
+
+Now, you are going to move on the next question.
+- First, you have to call `Navigator.pop(context)` method to make disappear the **SimpleDialog** when you press the "Next Question" button.
+- Create a function `nextQuestion` which check if the current question is lower than `questionList.length` and if it's right, increment the index to move on the 
+next question.
+- Take a look at [setState](https://api.flutter.dev/flutter/widgets/State/setState.html) method which allows to refresh the page and come back in the `initState` to change the current question.
+```
+if (index < questionList.length - 1) {
+  index++;
+  setState(() {
+    question = questionList[index]
+  });
+} else 
+// Call an AlertDialog to inform the player that the game is over and display he's score.
+// You can add a button to allow player to come back at the first page.
+```
+
+Congratulations! You have successfully created your first mobile app in Flutter.
+
+We hope you enjoyed this workshop and we look forward to the second part which will deal with more advanced aspects of mobile programming with Flutter.
+
+
+
+## Authors
+
+- Ilan BENARROCHE (ilan.benarroche@epitech.eu)
+- Arsene MATHIEU (arsene.mathieu@epitech.eu)
