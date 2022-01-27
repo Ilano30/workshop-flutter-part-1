@@ -34,5 +34,5 @@ Do the next steps **Set up an Editor** and **Test Drive**.
 Now, the setup is done. Let's start our Quizz App.
 First, we will create our first page:
 
-![Screenshot](screenshots/Exercise 1.png)
+![Screenshot](screenshots/exercise-1.png)
 
