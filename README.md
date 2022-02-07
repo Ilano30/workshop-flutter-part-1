@@ -33,6 +33,7 @@ Do the next steps **Set up an Editor** and **Test Drive**.
 ## Exercise 1 - First Page
 
 Now, the setup is done. Let's start our Quizz App.
+You can find all the project's resources in the directory `quizz-assets`.
 First, we will create our first page:
 
 ![Screenshot](screenshots/exercise1.png)
