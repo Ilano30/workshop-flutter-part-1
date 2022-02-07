@@ -42,7 +42,7 @@ Take a look at theses widgets:
 - [Column](https://api.flutter.dev/flutter/widgets/Column-class.html)
 - [Card](https://api.flutter.dev/flutter/material/Card-class.html)
 - [Image](https://api.flutter.dev/flutter/widgets/Image-class.html)
-- [ElevatedButton](https://api.flutter.dev/flutter/material/ElevatedButton-class.html)
+- [RaisedButton](https://api.flutter.dev/flutter/material/RaisedButton-class.html)
 - [Text](https://api.flutter.dev/flutter/widgets/Text-class.html)
 
 
