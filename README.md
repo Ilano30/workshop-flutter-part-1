@@ -144,7 +144,7 @@ if (index < questionList.length - 1) {
 
 Congratulations! You have successfully created your first mobile app in Flutter.
 
-We hope you enjoyed this workshop and we look forward to the second part which will deal with more advanced aspects of mobile programming with Flutter.
+We hope you enjoyed this workshop and we encourage you to continue learning Flutter.
 
 
 
