@@ -14,9 +14,8 @@ First, go to [Flutter Official Documentation](https://docs.flutter.dev/get-start
 #### System Requirements
 
 1. Get the Flutter SDK
-2. Run `flutter doctor`
-3. Update Your Path
-4. Run `flutter doctor` (Be sure that it's working ...)
+2. Update Your Path
+3. Run `flutter doctor` (Be sure that it's working ...)
 
 #### Platform Setup
 
@@ -76,16 +75,16 @@ This class will contain these attributes:
 3. Create an instance of **Question** in the **PageQuizz** page.
 4. Create a list of **Question** called `questionList` as in the example below:
 ```
-Question('Belgium's motto is "L\'union fait la force".', true, '', belgium.jpg),
-Question('The moon will eventually fall to Earth because of gravity', false, 'On the contrary, the moon is moving away', 'moon.jpg'),
-Question('Russia is larger in area than Pluto', true, '', 'russia.jpg'),
-Question('Nyctalope is a dwarf breed of antelope', false, 'It is an ability to see in the dark', 'nyctalope.jpg'),
-Question('The Commodore 64 is the best selling desktop computer', true, '', 'commodore.jpg'),
-Question('The name of the pirate flag is Black Skull', false, 'It is called Jolly Roger', 'pirate.png'),
-Question('Haddock is the name of Tintin's dog', false, 'It is Milou', 'tintin.jpg'),
-Question('The beard of the pharaohs was false', true, 'Already at that time they used hairpieces', 'pharao.jpg,),
-Question('In Quebec, "tire toi une buche" means come and sit down', true, 'The log, the famous lumberjack's chair', 'log.jpg'),
-Question('The lunar module Eagle had 4Kb of RAM', true, 'I can't believe I'm complaining with my 8GB of ram on my mac', 'eagle.jpg')
+Question("Belgium's motto is \"L'union fait la force\".", true, '', 'belgium.jpg'),
+Question("The moon will eventually fall to Earth because of gravity", false, "On the contrary, the moon is moving away", 'moon.jpg'),
+Question("Russia is larger in area than Pluto", true, '', 'russia.jpg'),
+Question("Nyctalope is a dwarf breed of antelope", false, "It is an ability to see in the dark", 'nyctalope.jpg'),
+Question("The Commodore 64 is the best selling desktop computer", true, '', 'commodore.jpg'),
+Question("The name of the pirate flag is Black Skull", false, "It is called Jolly Roger", 'pirate.png'),
+Question("Haddock is the name of Tintin's dog", false, "It is Milou", 'tintin.jpg'),
+Question("The beard of the pharaohs was false", true, "Already at that time they used hairpieces", 'pharao.jpg'),
+Question("In Quebec, \"tire toi une buche\" means come and sit down", true, "The log, the famous lumberjack's chair", 'log.jpg'),
+Question("The lunar module Eagle had 4Kb of RAM", true, "I can't believe I'm complaining with my 8GB of ram on my pc", 'eagle.jpg')
 ```
 5. Create two variables `int index = 0` and `int score = 0`
 6. Create an **initState** method: It is the method first called when the page is created.
